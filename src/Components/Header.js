@@ -14,7 +14,7 @@ const Header = () => {
             <BiSearch/>
         </div>
         <div className='flex items-center  gap-6'>
-           <IoNotifications className=' text-lg text-[#959292]'/>
+           <IoNotifications className='notify__alert text-lg text-[#959292] '/>
             <img src={avater} alt="avater" />
             <p>Riandra</p>
             <HiOutlineChevronDown className=' mb-3 '/>

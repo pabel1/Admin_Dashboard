@@ -17,6 +17,9 @@ function App() {
             background: "#ffffffff",
             boxShadow: "0px 0.3px 0.9px #00000012 0px 1.6px 3.6px #0000001c",
             borderBottom: "2px solid #E1E1E1",
+            position:"sticky",
+            top:"0",
+            zIndex:"100",
           }}
           className="header__style"
         >
@@ -31,6 +34,9 @@ function App() {
             style={{
               background: "#E1E1E1",
               paddingTop: "30px",
+              position:"sticky",
+            top:"30px",
+            zIndex:"10",
               overflowY:"scroll"
             }}
           >

@@ -47,3 +47,17 @@ html,body{
 .side__bar{
   background: "#E1E1E1";
 }
+.notify__alert{
+  position:relative;
+}
+.notify__alert ::after{
+  content:"";
+  width:15px;
+  height:15px;
+  border: 2px solid red;
+  border-radius:50%;
+  background: red;
+  position: absolute;
+  /* top: 0;
+  right: 0; */
+}
