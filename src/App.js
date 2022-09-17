@@ -31,7 +31,7 @@ function App() {
             style={{
               background: "#E1E1E1",
               paddingTop: "30px",
-              
+              overflowY:"scroll"
             }}
           >
             <SideBar />

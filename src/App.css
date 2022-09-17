@@ -18,6 +18,8 @@ html,body{
   padding-top: 50px;
   padding-left: 40px;
   width: 80%;
+  /* overflow-y: scroll;
+  scroll-behavior: smooth; */
 
 }
 .content__bar h1,h2,h3,h4,h5,h6{

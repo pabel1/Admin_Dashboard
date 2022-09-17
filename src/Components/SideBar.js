@@ -24,14 +24,12 @@ const items = [
   getItem(
     "Dashboard",
     "sub1",
-    <BarChartOutlined style={{ fontSize: "18px", color: "#959292" }} />,
-    []
+    <BarChartOutlined style={{ fontSize: "18px", color: "#959292" }} />
   ),
   getItem(
     "Maps",
     "sub2",
-    <EnvironmentOutlined style={{ fontSize: "18px", color: "#959292" }} />,
-    []
+    <EnvironmentOutlined style={{ fontSize: "18px", color: "#959292" }} />
   ),
   getItem(
     "Menu",
@@ -39,14 +37,12 @@ const items = [
     <ProjectOutlined
       rotate="270"
       style={{ fontSize: "18px", color: "#959292" }}
-    />,
-    []
+    />
   ),
   getItem(
     "Menu",
     "sub5",
-    <MessageOutlined style={{ fontSize: "18px", color: "#959292" }} />,
-    []
+    <MessageOutlined style={{ fontSize: "18px", color: "#959292" }} />
   ),
 ];
 const item = [
@@ -78,11 +74,13 @@ const SideBar = () => {
       <div>
         <h1 className=" ml-8 mt-6">MENU</h1>
         <Menu
+          defaultSelectedKeys={["1"]}
+          defaultOpenKeys={["sub1"]}
           onClick={onClick}
           style={{
-            marginLeft:"20px",
+            marginLeft: "20px",
             background: "transparent",
-            fontSize:"14px"
+            fontSize: "14px",
           }}
           // mode="inline"
           items={items}
@@ -93,7 +91,7 @@ const SideBar = () => {
         <Menu
           onClick={onClick}
           style={{
-            marginLeft:"20px",
+            marginLeft: "20px",
             background: "transparent",
           }}
           // mode="inline"
